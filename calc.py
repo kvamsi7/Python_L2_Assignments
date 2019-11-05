@@ -15,5 +15,16 @@ def log10(x):
   return math.log10(x)
 
 
-def radian(degree=0):
+
+def radToDeg(degree=0):
   return round(degree*(math.pi/180),5)
+
+def trig(n):
+  n = float(n)
+  print(math.sin(n))
+  print(math.cos(n))
+  print(math.tan(n))
+
+
+
+
