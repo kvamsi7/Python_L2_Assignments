@@ -18,3 +18,18 @@ else:
 finally:
   print(" Ending the Progarm")
 
+  
+  # outputs:
+  
+  #1 Enter first Number: 10
+  #  Enter second Number:  Keyboard interrupt occured, ctrl + c is pressed
+  #   Ending the Progarm
+
+  #2 Enter first Number: 10
+  # Enter second Number: 0 Arithmetic Error raised
+  # Ending the Progarm
+  
+  #3 Enter first Number: 10
+  # Enter second Number: 15 
+  # NameError: val3 not defined
+  # Ending the Progarm
